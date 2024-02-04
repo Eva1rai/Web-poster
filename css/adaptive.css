@@ -1,0 +1,752 @@
+/* компьютер / 1920 / 1440 / 1380 */
+@media all and (min-width: 1380px) and (max-width: 1920px){
+
+    .firstblock{
+        display: flex;
+        padding-top: 1vw;  
+        padding-left: 1vw;
+        padding-right: 1vw;
+        width: 100vw;
+        height: 59vw;
+    }
+    
+    .setka{ 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 59vw;
+        height: 59vw;
+    }
+    
+    .dvakvadrata{
+        display: flex;
+        justify-content: right; 
+        width: 39vw;
+        height: 59vw;
+        flex-wrap: wrap;
+    }
+    
+    .crug1{
+        display: flex;
+        width: 19vw;
+        height: 19vw;
+        background: rgba(237, 0, 140, 1);
+        border-radius: 50%;
+    }
+    
+    .crug2, .crug3, .crug5, .crug6, .crug9, .crug10{
+        display: flex;
+        width: 19vw;
+        height: 19vw;
+        background: rgba(217, 217, 217, 1);
+        border-radius: 50%;
+    }
+    
+    .crug4{
+        display: flex;
+        width: 19vw;
+        height: 19vw;
+        background: rgba(255, 243, 0, 1);
+        border-radius: 50%;
+    }
+    
+    .crug7, .crug8, .crug11{
+        display: flex;
+        width: 19vw;
+        height: 19vw;
+        background: rgba(1, 161, 75, 1);
+        border-radius: 50%;
+    }
+    
+    .ciferki{
+        display: flex;
+        width: 38.6vw;
+        height: 19vw;
+        justify-content: right; 
+    }
+    
+    .bigwatch{
+        display: flex;
+        width: 38.6vw;
+        height: 38.6vw;
+    }
+    
+    .secondblock{
+        display: flex;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        width: 100vw;
+        height: 19.6vw;
+    }
+    
+    .conteiner{
+        display: flex;
+        justify-content: space-between;
+        width: 59vw;
+        height: 19.6vw;
+    }
+    .mallwatch{
+        display: flex;
+        justify-content: right;
+        width: 19vw;
+        height: 19vw;
+    }
+    .ciferki2{
+        display: flex;
+        width: 38.6vw;
+        height: 19vw;
+        justify-content: right; 
+    }
+    .dvacruga{
+        display: flex;
+        justify-content: right;
+        width: 39vw;
+        height: 19.6vw;
+    }
+    
+    .thirdblock{
+        display: flex;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        width: 100vw;
+        height: 39.6vw;
+    }
+    
+    .kartinki{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 59vw;
+        height: 39.6vw;
+    }
+    .zont, .bokal, .ogon, .strelkivn, .triugolnic, .schrihcod{
+        display: flex;
+        width: 19vw;
+        height: 19vw;
+    }
+    
+    .chacti{
+        display: flex;
+        justify-content: right; 
+        overflow: hidden;
+        width: 39vw;
+        height: 39.6vw;
+        flex-wrap: wrap;
+    }
+    .ani{
+        display: flex;
+        overflow: hidden;
+        width: 38.5vw;
+        height: 19vw;
+        justify-content: right; 
+    }
+    
+    .tristrelki{
+        display: flex;
+        width: 38vw;
+        height: 19vw;
+        animation: strel 3s linear infinite;
+        flex-direction: row;
+        animation-play-state: running;
+        justify-content: right; 
+    }
+    
+    .ciferki3{
+        display: flex;
+        width: 39vw;
+        height: 19vw;
+        justify-content: right; 
+    }
+    
+    .chetiriblock{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 39vw;
+    }
+    
+    .corobka{
+        display: flex;
+        overflow: hidden;
+        width: 100vw;
+        height: 19vw;
+    }
+    
+    .karusel{
+        display: flex;
+        animation: karas 3s linear infinite;
+        flex-direction: row;
+        animation-play-state: running;
+        height: 19vw;
+    }
+    
+    .dostavka{
+        display: flex;
+        font-family: 'Helvetica';
+        font-size: 18vw;
+        line-height: 8vw;
+        margin-top: -8vw;
+        white-space: nowrap;  
+    }
+    
+    .doroga{
+        display: flex;
+        width: 100vw;
+        height: 44vw;
+    }
+    
+    .konec{
+        display: flex;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        height: 6vw;
+        justify-content: space-between;
+    }
+    
+    .logoo{
+        display: flex;
+        width: 17vw;
+        height: 7vw;
+    }
+    
+    .nado{
+        display: flex;
+        width: 76vw;
+        height: 7vw;
+        justify-content: space-between;
+    }
+    .log{
+        display: flex;
+        width: 11vw;
+        height: 5.1vw;
+    }
+    
+    .te{
+        font-family: 'Proxima Nova';
+        font-size: 1vw;
+        padding-top: 2vw;
+    }
+    
+    .tex{
+        font-family: 'Proxima Nova';
+        font-size: 1vw;
+        padding-top: 2vw;
+    
+    }
+    
+    .tix{
+        font-family: 'Proxima Nova';
+        font-size: 1vw;
+        padding-top: 2vw;
+    }
+}
+
+/* айпад / 1024 / 768 */
+@media all and (min-width: 768px) and (max-width: 1380px){
+    
+    .firstblock{
+        display: flex;
+        padding-top: 1vw;  
+        padding-left: 1vw;
+        padding-right: 1vw;
+        width: 100vw;
+        height: 48.2vw;
+    }
+    
+    .setka{ 
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 1vw;
+        justify-content: space-between;
+        width:  47.5vw;
+        height:  48.2vw;
+    }
+    
+    .dvakvadrata{
+        display: flex;
+        justify-content: right; 
+        margin-left: 1vw;
+        width:  47.5vw;
+        height: 59vw;
+        flex-wrap: wrap;
+    }
+    
+    .crug1{
+        display: flex;
+        width: 23.4vw;
+        height: 23.4vw;
+        background: rgba(237, 0, 140, 1);
+        border-radius: 50%;
+    }
+
+    .crug2{
+        display: flex;
+        width: 23.4vw;
+        height: 23.4vw;
+        background: rgba(1, 161, 75, 1);
+        border-radius: 50%;
+    }
+
+    .crug3{
+        display: flex;
+        width: 23.4vw;
+        height: 23.4vw;
+        background: rgba(255, 243, 0, 1);
+        border-radius: 50%;
+    }
+
+    .crug4{
+        display: flex;
+        width: 23.4vw;
+        height: 23.4vw;
+        background: rgba(217, 217, 217, 1);
+        border-radius: 50%;
+    }
+
+    .crug5, .crug6, .crug7, .crug8, .crug9{
+        display: none;
+    } 
+
+    .ciferki{
+        display: flex;
+        width: 47.5vw;
+        height: 23.4vw;
+        justify-content: right; 
+    }
+    
+    .bigwatch{
+        display: flex;
+        width: 47.5vw;
+        height: 47.5vw;
+    }
+    
+     .secondblock{
+        display: flex;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        width: 100vw;
+        height: 19.6vw;
+    }
+    
+    .conteiner{
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        height: 23.4vw;
+    }
+    .mallwatch{
+        display: none;
+    }
+    .ciferki2{
+        display: flex;
+        width: 47.5vw;
+        height: 23.4vw;
+        margin-left: 1vw;
+        justify-content: right; 
+    }
+    .dvacruga{
+        display: flex;
+        justify-content: right;
+        width: 39vw;
+        height: 19.6vw;
+    }
+    .crug10, .crug11{
+        display: none;
+    }
+    .thirdblock{
+        display: flex;
+        margin-top: 4vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        width: 100vw;
+        height: 48.2vw;
+    }
+    
+    .kartinki{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 47.5vw;
+        height:  48.2vw;
+    }
+    .zont, .bokal, .strelkivn, .triugolnic, .schrihcod{
+        display: flex;
+        width: 23.4vw;
+        height: 23.4vw;
+    }
+
+    .ogon, .schrihcod{
+        display: none;
+    }
+    
+    .chacti{
+        display: flex;
+        justify-content: right; 
+        overflow: hidden;
+        width: 47.5vw;
+        height: 48.2vw;
+        flex-wrap: wrap;
+        margin-left: 1vw;
+    }
+    .ani{
+        display: flex;
+        overflow: hidden;
+        width: 47.5vw;
+        height: 23.4vw;
+        justify-content: right;
+    }
+    
+    .tristrelki{
+        display: flex;
+        width: 47.5vw;
+        height: 23.4vw;
+        animation: strel 3s linear infinite;
+        flex-direction: row;
+        animation-play-state: running;
+        justify-content: right; 
+    }
+    
+    .ciferki3{
+        display: flex;
+        width: 47.5vw;
+        height: 23.4vw;
+        justify-content: right; 
+    }
+    
+    .chetiriblock{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 39vw;
+    }
+    
+    .corobka{
+        display: flex;
+        overflow: hidden;
+        width: 100vw;
+        height: 19vw;
+    }
+    
+    .karusel{
+        display: flex;
+        animation: karas 3s linear infinite;
+        flex-direction: row;
+        animation-play-state: running;
+        height: 23.4vw;
+    }
+    
+    .dostavka{
+        display: flex;
+        margin-top: -8vw;
+        font-family: 'Helvetica';
+        font-size: 17.8vw;
+        white-space: nowrap;  
+    }
+    
+    .doroga{
+        display: flex;
+        width: 100vw;
+        height: 44vw;
+    }
+    
+    .konec{
+        display: flex;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        height: 6vw;
+        justify-content: space-between;
+    }
+    
+    .logoo{
+        display: flex;
+        width: 17vw;
+        height: 7vw;
+    }
+    
+    .nado{
+        display: flex;
+        width: 76vw;
+        height: 7vw;
+        justify-content: space-between;
+    }
+    .log{
+        display: flex;
+        width: 11vw;
+        height: 5.1vw;
+    }
+    
+    .te{
+        font-family: 'Proxima Nova';
+        font-size: 1.3vw;
+        padding-top: 2vw;
+    }
+    
+    .tex{
+        font-family: 'Proxima Nova';
+        font-size: 1.3vw;
+        padding-top: 2vw;
+    
+    }
+    
+    .tix{
+        font-family: 'Proxima Nova';
+        font-size: 1.3vw;
+        padding-top: 2vw;
+    } 
+
+}
+
+
+@media all and (min-width: 360px) and (max-width: 768px){
+
+    .firstblock{
+        display: flex;
+        padding-top: 1vw;  
+        padding-left: 1vw;
+        padding-right: 1vw;
+        width: 100vw;
+        height: 48.2vw;
+    }
+    
+    .setka{ 
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 1vw;
+        justify-content: space-between;
+        width:  47.5vw;
+        height:  48.2vw;
+    }
+    
+    .dvakvadrata{
+        display: flex;
+        justify-content: right; 
+        margin-left: 1vw;
+        width:  47.5vw;
+        height: 59vw;
+        flex-wrap: wrap;
+    }
+    
+    .crug1{
+        display: flex;
+        width: 23.4vw;
+        height: 23.4vw;
+        background: rgba(237, 0, 140, 1);
+        border-radius: 50%;
+    }
+
+    .crug2{
+        display: flex;
+        width: 23.4vw;
+        height: 23.4vw;
+        background: rgba(1, 161, 75, 1);
+        border-radius: 50%;
+    }
+
+    .crug3{
+        display: flex;
+        width: 23.4vw;
+        height: 23.4vw;
+        background: rgba(255, 243, 0, 1);
+        border-radius: 50%;
+    }
+
+    .crug4{
+        display: flex;
+        width: 23.4vw;
+        height: 23.4vw;
+        background: rgba(217, 217, 217, 1);
+        border-radius: 50%;
+    }
+
+    .crug5, .crug6, .crug7, .crug8, .crug9{
+        display: none;
+    } 
+
+    .ciferki{
+        display: flex;
+        width: 47.5vw;
+        height: 23.4vw;
+        justify-content: right; 
+    }
+    
+    .bigwatch{
+        display: flex;
+        width: 47.5vw;
+        height: 47.5vw;
+    }
+    
+     .secondblock{
+        display: flex;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        width: 100vw;
+        height: 19.6vw;
+    }
+    
+    .conteiner{
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        height: 23.4vw;
+    }
+    .mallwatch{
+        display: none;
+    }
+    .ciferki2{
+        display: flex;
+        width: 47.5vw;
+        height: 23.4vw;
+        margin-left: 1vw;
+        justify-content: right; 
+    }
+    .dvacruga{
+        display: flex;
+        justify-content: right;
+        width: 39vw;
+        height: 19.6vw;
+    }
+    .crug10, .crug11{
+        display: none;
+    }
+    .thirdblock{
+        display: flex;
+        margin-top: 4vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        width: 100vw;
+        height: 48.2vw;
+    }
+    
+    .kartinki{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 47.5vw;
+        height:  48.2vw;
+    }
+    .zont, .bokal, .strelkivn, .triugolnic, .schrihcod{
+        display: flex;
+        width: 23.4vw;
+        height: 23.4vw;
+    }
+
+    .ogon, .schrihcod{
+        display: none;
+    }
+    
+    .chacti{
+        display: flex;
+        justify-content: right; 
+        overflow: hidden;
+        width: 47.5vw;
+        height: 48.2vw;
+        flex-wrap: wrap;
+        margin-left: 1vw;
+    }
+    .ani{
+        display: flex;
+        overflow: hidden;
+        width: 47.5vw;
+        height: 23.4vw;
+        justify-content: right;
+    }
+    
+    .tristrelki{
+        display: flex;
+        width: 47.5vw;
+        height: 23.4vw;
+        animation: strel 3s linear infinite;
+        flex-direction: row;
+        animation-play-state: running;
+        justify-content: right; 
+    }
+    
+    .ciferki3{
+        display: flex;
+        width: 47.5vw;
+        height: 23.4vw;
+        justify-content: right; 
+    }
+    
+    .chetiriblock{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 39vw;
+    }
+    
+    .corobka{
+        display: flex;
+        overflow: hidden;
+        width: 100vw;
+        height: 19vw;
+    }
+    
+    .karusel{
+        display: flex;
+        animation: karas 3s linear infinite;
+        flex-direction: row;
+        animation-play-state: running;
+        height: 23.4vw;
+    }
+    
+    .dostavka{
+        display: flex;
+        margin-top: -8vw;
+        font-family: 'Helvetica';
+        font-size: 17.8vw;
+        white-space: nowrap;  
+    }
+    
+    .doroga{
+        display: flex;
+        width: 100vw;
+        height: 44vw;
+    }
+    
+    .konec{
+        display: flex;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        height: 6vw;
+        justify-content: space-between;
+    }
+    
+    .logoo{
+        display: flex;
+        width: 17vw;
+        height: 7vw;
+    }
+    
+    .nado{
+        display: flex;
+        width: 76vw;
+        height: 7vw;
+        justify-content: space-between;
+    }
+    .log{
+        display: flex;
+        width: 11vw;
+        height: 5.1vw;
+    }
+    
+    .te{
+        font-family: 'Proxima Nova';
+        font-size: 1.5vw;
+        padding-top: 2vw;
+    }
+    
+    .tex{
+        font-family: 'Proxima Nova';
+        font-size: 1.5vw;
+        padding-top: 2vw;
+    
+    }
+    
+    .tix{
+        font-family: 'Proxima Nova';
+        font-size: 1.5vw;
+        padding-top: 2vw;
+    } 
+
+}

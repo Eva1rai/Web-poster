@@ -1,0 +1,54 @@
+.karusel:hover{
+    animation-play-state: paused;
+}
+
+@keyframes karas{
+    0% {transform: translateX(-26%);}
+    100% {transform: translateX(0%);}
+}
+
+.tristrelki:hover{
+    animation-play-state: paused;
+}
+
+@keyframes strel{
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(50vw);}
+}
+
+.crug1:hover{
+    background: rgba(217, 217, 217, 1);
+}
+.crug2:hover{
+    background: rgba(255, 243, 0, 1);
+}.crug3:hover{
+    background: rgba(1, 161, 75, 1);
+}.crug4:hover{
+    background: rgba(217, 217, 217, 1);
+}.crug5:hover{
+    background: rgba(237, 0, 140, 1);
+}.crug6:hover{
+    background: rgba(1, 161, 75, 1);
+}.crug7:hover{
+    background: rgba(255, 243, 0, 1);
+}.crug8:hover{
+    background: rgba(237, 0, 140, 1);
+}
+.crug9:hover{
+    background: rgba(255, 243, 0, 1);
+}
+.crug10:hover{
+    background: rgba(255, 243, 0, 1);
+}
+.crug11:hover{
+    background: rgba(217, 217, 217, 1);
+}
+
+.dostavka:hover{
+    animation: dostav 5s linear infinite
+    
+}
+@keyframes dostav{
+    from{ text-indent: 1%;}
+    to{ text-indent: 100%;}
+}

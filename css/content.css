@@ -1,0 +1,248 @@
+html, body{
+    background: #ffffff;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.firstblock{
+    display: flex;
+    padding-top: 1vw;  
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 100vw;
+    height: 59vw;
+}
+
+.setka{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 59vw;
+    height: 59vw;
+}
+
+.dvakvadrata{
+    display: flex;
+    justify-content: right; 
+    width: 39vw;
+    height: 59vw;
+    flex-wrap: wrap;
+}
+
+.crug1{
+    display: flex;
+    width: 19vw;
+    height: 19vw;
+    background: rgba(237, 0, 140, 1);
+    border-radius: 50%;
+}
+
+.crug2, .crug3, .crug5, .crug6, .crug9, .crug10{
+    display: flex;
+    width: 19vw;
+    height: 19vw;
+    background: rgba(217, 217, 217, 1);
+    border-radius: 50%;
+}
+
+.crug4{
+    display: flex;
+    width: 19vw;
+    height: 19vw;
+    background: rgba(255, 243, 0, 1);
+    border-radius: 50%;
+}
+
+.crug7, .crug8, .crug11{
+    display: flex;
+    width: 19vw;
+    height: 19vw;
+    background: rgba(1, 161, 75, 1);
+    border-radius: 50%;
+}
+
+.ciferki{
+    display: flex;
+    width: 38.6vw;
+    height: 19vw;
+    justify-content: right; 
+}
+
+.bigwatch{
+    display: flex;
+    width: 38.6vw;
+    height: 38.6vw;
+}
+
+.secondblock{
+    display: flex;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 100vw;
+    height: 19.6vw;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    width: 59vw;
+    height: 19.6vw;
+}
+.mallwatch{
+    display: flex;
+    justify-content: right;
+    width: 19vw;
+    height: 19vw;
+}
+.ciferki2{
+    display: flex;
+    width: 38.6vw;
+    height: 19vw;
+    justify-content: right; 
+}
+.dvacruga{
+    display: flex;
+    justify-content: right;
+    width: 39vw;
+    height: 19.6vw;
+}
+
+.thirdblock{
+    display: flex;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 100vw;
+    height: 39.6vw;
+}
+
+.kartinki{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 59vw;
+    height: 39.6vw;
+}
+.zont, .bokal, .ogon, .strelkivn, .triugolnic, .schrihcod{
+    display: flex;
+    width: 19vw;
+    height: 19vw;
+}
+
+.chacti{
+    display: flex;
+    justify-content: right; 
+    overflow: hidden;
+    width: 39vw;
+    height: 39.6vw;
+    flex-wrap: wrap;
+}
+.ani{
+    display: flex;
+    overflow: hidden;
+    width: 38.5vw;
+    height: 19vw;
+    justify-content: right; 
+}
+
+.tristrelki{
+    display: flex;
+    width: 38vw;
+    height: 19vw;
+    animation: strel 3s linear infinite;
+    flex-direction: row;
+    animation-play-state: running;
+    justify-content: right; 
+}
+
+.ciferki3{
+    display: flex;
+    width: 39vw;
+    height: 19vw;
+    justify-content: right; 
+}
+
+.chetiriblock{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 37vw;
+}
+
+.corobka{
+    display: flex;
+    overflow: hidden;
+    width: 100vw;
+    height: 19vw;
+    background: gold;
+}
+
+.karusel{
+    display: flex;
+    animation: karas 3s linear infinite;
+    flex-direction: row;
+    animation-play-state: running;
+    height: 19vw;
+}
+
+.dostavka{
+    display: flex;
+    margin-top: -8vw;
+    font-family: 'Helvetica';
+    font-size: 20vw;
+    white-space: nowrap;  
+}
+
+.doroga{
+    display: flex;
+    width: 100vw;
+    height: 17.8vw;
+}
+
+.konec{
+    display: flex;
+    padding-left: 1vw;
+    padding-right: 2vw;
+    margin-right: 1vw;
+    height: 6vw;
+    justify-content: space-between;
+}
+
+.logoo{
+    display: flex;
+    width: 17vw;
+    height: 7vw;
+}
+
+.nado{
+    display: flex;
+    width: 76vw;
+    height: 7vw;
+    justify-content: space-between;
+}
+.log{
+    display: flex;
+    width: 11vw;
+    height: 5.1vw;
+}
+
+.te{
+    font-family: 'Proxima Nova';
+    font-size: 1vw;
+    padding-top: 1vw;
+}
+
+.tex{
+    font-family: 'Proxima Nova';
+    font-size: 1vw;
+    padding-top: 2vw;
+
+}
+
+.tix{
+    font-family: 'Proxima Nova';
+    font-size: 1vw;
+    padding-top: 2vw;
+}
